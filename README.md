@@ -5,8 +5,8 @@
 A bill consists of these fields:
 
 
-```{
-
+```
+{
 "command":"debit",
 "accessToken":"ola_access_token",
 "uniqueId":"TXN1232434343555523",
@@ -17,7 +17,8 @@ A bill consists of these fields:
 "notificationUrl":"http://myweb.com/mynotify_url.php",
 "amount":"100.00",
 "currency":"INR"
-}```
+}
+```
 
 The value of the `hash` key is generated based on the other keys. It is a SHA512 of the hash string, where hash string is as follows:
 
