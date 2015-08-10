@@ -5,7 +5,7 @@
 A bill consists of these fields:
 
 
-```
+```json
 {
 "command":"debit",
 "accessToken":"ola_access_token",
